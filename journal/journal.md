@@ -145,8 +145,10 @@ User’s place their hands on a sensor at the base of one of many giant flowers 
 Getting so much insight into this Burning Project from this conference was very interesting. They use Arduinos and talk through the process and challenges of using an Arduino. Especially interesting were the challenges posed by the circumstances: dust storms, demanding artists, and the difficulties on site installation in a place like Burning Man. 
 From this I learned that a pulse sensor could be made from basic electrical components. I also have support for the prevalence of “sending light outward” imagery and plant imagery when it comes to pulse in art. It is also interesting to see a take on “cooperative” heart rates, although they don’t really need to be in sync. 
 
+I draw on both of these projects when brainstorming for the Heartbox designs in **section 3.2**
+
 ### Related project 11 ###
-[**_Enlightenment_ Butterfly Skirt **](https://www.vice.com/en_us/article/nz4ynd/butterfly-skirt-measures-your-mood-with-wingbeats) 
+[**_Enlightenment_ Butterfly Skirt**](https://www.vice.com/en_us/article/nz4ynd/butterfly-skirt-measures-your-mood-with-wingbeats) 
 
 ![Image](butterfly.gif)
 
@@ -291,7 +293,7 @@ It needs to move independently from the user and heart rate sensor because it is
 
 The refined concept 1 now incorporated elements from concept 2. A lizard is animated by a user’s heart. When a heartrate is first detected, its limp body becomes rigid. After that it goes through a walking cycle at the same rate as the user’s heart, with a bright LED pulsating in time under its skin as well. When the user removes their finger from the sensor, the lizard is limp again. 
 
-###Why a lizard?###
+### Why a lizard? ###
 
 The “lizard” does not very closely resemble a lizard and neither did I aim to. It is a generic tetrapod, easy to impose my own intents onto without carrying many connotations. It does not have too many human/baby features that push no boundaries (a kitten) neither is it so foreign that the message is too on the nose (making the user relate to a fly). The empathy isn’t the most important part, rather the awareness of shared functions is. 
 
@@ -355,7 +357,7 @@ Most of my connects are solderless and use twist and tape method from the replic
 I already knew how to operate servos from classwork. I used a simple bit of code with button a and b presses corresponding to different servo positions to test functionality of my connections. 
 
 
-First I connected a servo just to the microbit (Input line, Vin and Ground) and found out in [this forum](https://arduino.stackexchange.com/questions/40145/micro-servo-is-not-working-with-arduino-uno) that if the Micro:bit is also connected to a computer via USB, it makes the servo jitter because the voltage is too high. I keep this in mind for the rest of my experimentation, but I will be using an external battery pack for most of it. 
+First I connected a servo just to the microbit (Input line, Vin and Ground) and found out in this[forum](https://arduino.stackexchange.com/questions/40145/micro-servo-is-not-working-with-arduino-uno) that if the Micro:bit is also connected to a computer via USB, it makes the servo jitter because the voltage is too high. I keep this in mind for the rest of my experimentation, but I will be using an external battery pack for most of it. 
 
 
 First connecting the external power source I learned from this [video](https://www.youtube.com/watch?v=9qgABVkvbYI) that the battery pack ground also has to connect to Micro:bit ground. 
@@ -426,9 +428,9 @@ I thought I could skimp out on work just by connecting the plates with thread, b
 
 I used super glue to join the neck pieces to the canvas.
 
-![Image](crocneck.jpg)
+![Image](crockneck.jpg)
 
-![Image](crocneck3.gif)
+![Image](crockneck3.gif)
 
 
 In my plans, the degrees for left and right were a bit extreme (45 and 135). After settled for an average between those and neutral (90) and it worked well. 
@@ -452,11 +454,11 @@ Experimenting with just 2 legs as I still didn’t have the 4th leg servo. To my
 
 ![Image](walking.gif)
 
-![Image](legneckcode.png)
+![Image](necklegcode.png)
 
 I thought maybe I could make the walking more gradual as these motions are quite violent. I created degree increments and separated them with small pauses. However, this just creates stuttering and sounds awful. 
 
-![Image](legneckcode2.png)
+![Image](necklegcode2.png)
 ### Neck on final body ###
 
 ![Image](neckonbody.jpg)
