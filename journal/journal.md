@@ -330,6 +330,7 @@ The materials I ended up using
 
 •	Hook and Loop fasteners
 
+
 Some things I already owned
 
 •	The first microbit
@@ -496,9 +497,11 @@ This experiment did show: yes! the legs move back and forth like usual. There is
 ![Image](pulleylegcode.png)
 
 **_Angle of the string_**
+
 In this experiment I learned that the angle at which the string is pulled relative to the walking servo is very important. It needs to be parallel to the walking servo, otherwise it’ll exert most of the pressure behind the servo (and therefore stop it from functioning or break the servo when the servo arm is screwed into the servo). For this reason I also left behind the angled body design of the previous experiments for a flat body where the angle of the string is much easier to control. The limbs needs to be perpendicular to the walking servo so that the string pulls “into” the servo, not up. 
 
 **_Tightness_**
+
 In the code above because of how I positioned the pulley, the tightest position is at 0, so all the numbers are inverse. Of course, if the pulley pulls in the other direction enough (180) it’ll tighten that way as well, but that is not how the string intends to be pulled. It is not a major difference. 
 
 The numbers here are ideals for this particular experiment in tightness discovered through trial and error: too tight and the leg cannot move when it is taught, too loose and when the leg is “dead” it can twist in its socket and shorten the string available to pull. 
