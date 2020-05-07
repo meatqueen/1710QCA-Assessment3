@@ -3,7 +3,7 @@
 ![Image](ad.jpg)
 ## Index: ##
 
-1. CONCEPTUALISATION  **
+**1. CONCEPTUALISATION**
 
 1.1	Design Intent
 
@@ -13,7 +13,7 @@
 
 1.4	Final Design Concept
 
-2. THE BODY  **
+**2. THE BODY**
 
 2.1 	Materials
 
@@ -27,7 +27,7 @@
 
 2.6 Does it walk all together?
 
-** 3. HEART BOX  **
+**3. HEART BOX**
 
 3.1 Heart Module
 
@@ -39,7 +39,7 @@
 
 3.2 Building the Heart Box
 
-** 4. FINAL TOUCHES  **
+**4. FINAL TOUCHES**
 
 4.1 Combining the code
 
@@ -47,15 +47,16 @@
 
 4.3 Lizard Exterior
 
-** 5. FINAL OUTCOME **
+**5. FINAL OUTCOME**
 
-** 6. REFLECTION **
+**6. REFLECTION**
 
 
 #1. Conceptualisation #
 ##1.1 Design intent ##
 In short: Creating a clear visual and tactile link between “heart” and “life”, and the inverse, “no heart” and “no life”. 
 My project aims to highlight the dependency of a user on a passive life-giving bodily process (heartbeat) that they have minimal agency over through a robotic animal. It will challenge notions of humans as “unnatural” or above nature. 
+
 _Rationale: 
 Why heartbeat, animal and animation?
 We aren't often aware of the ongoing physiological processes of our body that keep us alive. When we are aware, I'd argue we don't think about them as "this is keeping me alive right now" and more "this is a passive thing my body does" i.e.: heartbeat. But I'd argue that your body is as much a result of your heartbeat as your heartbeat is a function of your body. Heartrate is my process of choice because it fits nicely into functions we barely notice, don't think much of but is very clearly vital and immediate. 
