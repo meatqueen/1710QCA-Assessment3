@@ -357,7 +357,7 @@ Most of my connects are solderless and use twist and tape method from the replic
 I already knew how to operate servos from classwork. I used a simple bit of code with button a and b presses corresponding to different servo positions to test functionality of my connections. 
 
 
-First I connected a servo just to the microbit (Input line, Vin and Ground) and found out in this[forum](https://arduino.stackexchange.com/questions/40145/micro-servo-is-not-working-with-arduino-uno) that if the Micro:bit is also connected to a computer via USB, it makes the servo jitter because the voltage is too high. I keep this in mind for the rest of my experimentation, but I will be using an external battery pack for most of it. 
+First I connected a servo just to the microbit (Input line, Vin and Ground) and found out in this [forum](https://arduino.stackexchange.com/questions/40145/micro-servo-is-not-working-with-arduino-uno) that if the Micro:bit is also connected to a computer via USB, it makes the servo jitter because the voltage is too high. I keep this in mind for the rest of my experimentation, but I will be using an external battery pack for most of it. 
 
 
 First connecting the external power source I learned from this [video](https://www.youtube.com/watch?v=9qgABVkvbYI) that the battery pack ground also has to connect to Micro:bit ground. 
