@@ -1,4 +1,4 @@
-## 1701QCA: Assessment 3 ##
+## 1701QCA: Assessment 3
 # Title: ‘Two products of a non-agent’ #
 ![Image](ad.jpg)
 ## Index: ##
