@@ -860,7 +860,7 @@ Receiver Micro:bit
 
 Here is what the final lizard is built like:
 
-![Image](izard.png)
+![Image](.izard.jpg)
 
 
 # 3. HEART BOX # 
