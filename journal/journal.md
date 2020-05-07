@@ -139,7 +139,7 @@ This project is relevant to me thematically. Montgomery is concerned with bringi
 
 [**Samuel Clay’s  _Pulse and Bloom_**](https://medium.com/supplyframe-hardware/using-biofeedback-to-create-large-scale-interactive-art-installations-8d5fe7509db4)
 
-![Image](pulsebloom .jpg)
+![Image](pulsebloom.jpg)
 
 User’s place their hands on a sensor at the base of one of many giant flowers and their pulse shoots up the stem (as light) further illuminating the petals. Two people can also send two separate heart rates up simultaneously. 
 Getting so much insight into this Burning Project from this conference was very interesting. They use Arduinos and talk through the process and challenges of using an Arduino. Especially interesting were the challenges posed by the circumstances: dust storms, demanding artists, and the difficulties on site installation in a place like Burning Man. 
@@ -649,7 +649,7 @@ I later secured the microbit in there with a rubber band that is stretched by tw
 
 Early on I decided that the tail would not also swing from left to right, and instead house all the batteries. The tail is a strip of strong fabric. After I had to replace a 3V pack with a 6V pack, the body got considerably larger, but it worked. The 6v battery on the bottom is being held in place by a screw and the other two batteries are connected with Velcro. 
 
-![Image](Velcro.jpg)
+![Image](velcro.jpg)
 
 Shortened all the wires and mapped all the legs to their own pins since I thought I could get quite natural motions like this. 
 
@@ -696,7 +696,7 @@ It appears as though the Micro:bit can only write 3 signals at a time, because w
 
 I knew I could write the legs to the same pin, but this meant I still had four pins.
 
-![Image](servoalt.png)
+![Image](servoalt1.png)
 
 I had to remove one and it was obviously the LED. It is a shame and I think it added to the strength of the connection between the lizard and the heart beat but nothing can be done on such short notice. 
 
@@ -732,12 +732,13 @@ For these tests I added a screw in the chest of the lizard where the LED used to
 
 ![Image](screw.jpg)
 
- ** _ Script_ **
+
+ **_Script_**
  
 This was the walking script in line with my previous ideas of how I was going to make it walk:
 
 
-** Start (Button A in this test): **
+**Start (Button A in this test):**
 
 Head is on a severe tilt (P14:25)
 
@@ -746,7 +747,7 @@ Pulley is loose (P0:130)
 Legs straight (P2:90)
 
 
-** On input (Button B): **
+**On input (Button B):**
 
 Head is straight (P14:90)
 
@@ -772,9 +773,9 @@ Left feet back, right feet forward (P2:115)
 loop until…
 
 
-**No input (represented by button A+B): **
+**No input (represented by button A+B):**
 
- Head is on a severe tilt (P14:25)
+Head is on a severe tilt (P14:25)
  
 Pulley is loose (P0:130)
 
@@ -782,7 +783,7 @@ Legs straight (P2:90)
 
 ![Image](servoalt2.png)
 
-** _ Centre of Gravity_ **
+**_Centre of Gravity_**
 
 The head wasn’t doing anything at all because the centre of gravity on this lizard is way back in the tail. Who would’ve thought that 10 batteries would weigh a lot.  I tried to shift the pivot screw back. The microbit shield was previously in the way and now I didn’t need it anymore with only 3 pins used. 
 
@@ -831,11 +832,11 @@ I removed the grips (they were preventing the lizard from flopping back down), r
 
 Here is the result (this video is taken with the upcoming heart box):
 
-![Image]( (rawwalk.gif)
+![Image](rawwalk.gif)
 ![Image](servoalt3.png)
 
 ### Wiring changes ###
-** What I thought the wiring would look like: **
+**What I thought the wiring would look like:**
 
 Sender Micro:bit
 
@@ -845,7 +846,7 @@ Receiver Micro:bit
 
 ![Image](diagram1.jpg)
 
-** Changes made since then ** 
+**Changes made since then** 
 
 Sender Micro:bit
 
@@ -948,7 +949,7 @@ Identical to final heart code in section 2.7
 
 ![Image](heartcode3.png]
 
-_Radio _
+_Radio_
 
 Send value when timer is up
 
@@ -956,7 +957,7 @@ Send value when timer is up
 
 **Receiver:**
 
-_Radio _
+_Radio_
 
 When BPM is received convert to wait time (time in between motions). 
 
@@ -1150,7 +1151,7 @@ I wanted this heart box to have one input and no buttons. I wanted the user to h
 To strengthen the connection between lizard and heart box without creating a relationship of agency, the battery pack that powers the heart box is covered in fur like the lizard is. This suggests the relationship but doesn’t position the lizard as something being acted on. In fact, the lizard is providing as much power to this heart as the user does. When you disconnect the furry battery pack nothing works. 
 
 
-** Gate **
+**Gate**
 
 I stripped wires in the middle. 
 
