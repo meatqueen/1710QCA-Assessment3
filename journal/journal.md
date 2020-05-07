@@ -2,30 +2,54 @@
 # Title: ‘Two products of a non-agent’ #
 ![Image](ad.jpg)
 ## Index: ##
-## 1. CONCEPTUALISATION  ##
+
+1. CONCEPTUALISATION  **
+
 1.1	Design Intent
+
 1.2	Research
+
 1.3	Design Concepts
+
 1.4	Final Design Concept
-## 2. THE BODY ##
-2.1 Materials
-2.2 Early Development
-2.3 Neck
+
+2. THE BODY  **
+
+2.1 	Materials
+
+2.2 	Early Development
+
+2.3 	Neck
+
 2.4 Pulley
+
 2.5 Finalising the body
+
 2.6 Does it walk all together?
-## 3. HEART BOX ##
+
+** 3. HEART BOX  **
+
 3.1 Heart Module
+
 3.1A MAX30100
+
 3.1B Pulse Sensor Knock off
+
 3.1C Official Pulse Sensor
+
 3.2 Building the Heart Box
-## 4. FINAL TOUCHES ##
+
+** 4. FINAL TOUCHES  **
+
 4.1 Combining the code
+
 4.2 Final Code
+
 4.3 Lizard Exterior
-## 5. FINAL OUTCOME ##
-## 6. REFLECTION ##
+
+** 5. FINAL OUTCOME **
+
+** 6. REFLECTION **
 
 
 #1. Conceptualisation #
