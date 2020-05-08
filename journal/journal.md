@@ -1212,7 +1212,7 @@ After testing I found that.
 1.	I found that the 10 second timer is too long so I halved it to 5 seconds and increased the factor to get bpm from 6 to 12. 
 
 
-2.	The beat thresholds I set were inaccurate. I changed them to be <500 and >590.
+2.	The beat thresholds I set were inaccurate. I changed them to be <500 and >590. I also increased the margins within the lizard 	would move as I thought the user would find it confusing why an apparently reasonable heartrate doesn't result in the lizard 		moving. 
 
 
 3.	The lizard reacts to the first heart beat too quickly. The first sequence that is recorded is faulty and erratic. To solve this I created another state, ‘gate’ that would be set to 1 if pin 0 was closed. This allowed me to put a 5 second delay between pin 0 and state change, discarding the first sequence. 
@@ -1221,7 +1221,7 @@ After testing I found that.
 4.	The servo was set to tight and prevented the legs from moving after it was fully tightened. This is new. The code I used with this issue was the same as before and the legs were not too tight then. I then discovered I needed to change the batteries but lowered the tightness anyway as the batteries weren’t drained, they just weren’t fully charged. This is unreasonably tight.   
 
 
-5.	The lizard sometimes stops moving even when the display is okay. I decreased the margin for too slow a bpm down to 100ms and increased the maximum to 3000ms. This may be related to inaccurate measurement on 2, but I’m not certain. 
+5.	I made a mistake in the mathematics converting BPM to ms wait. It should've been 60/BPM not BPM/60. This was the cause of an unusually slow rate despite apparently accurate BPM measurement. 
 
 ## 4.2 Final Code ##
 
