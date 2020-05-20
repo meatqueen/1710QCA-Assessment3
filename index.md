@@ -13,7 +13,7 @@ Perhaps it is shared.
 ![Image](IMG_8286.JPG)
 
 
-[![Image](missingimage.png)](https://your video address)
+[![Image](thumbnail.PNG)](https://youtu.be/OQBSGG18KAA)
 
 ### Journal ###
 [Process and reflection journal](/journal/journal.md)
