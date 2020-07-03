@@ -1,4 +1,4 @@
-@wificat_lady on Twitter and Instragram
+
 # *Two Products of a Non-agent*
 ## Jane Skorina ##
 ## 1701QCA Making Interaction 2020 Final Project ##
@@ -19,3 +19,6 @@ Perhaps it is shared.
 ### Journal ###
 The whole process! 
 [Process and reflection journal](/journal/journal.md)
+
+
+@wificat_lady on Twitter and Instragram
